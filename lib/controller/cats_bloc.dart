@@ -39,6 +39,7 @@ class CatsBloc{
 
 void dispose(){
     _streamController.close();
+    _eventController.close();
 }
 
 }
